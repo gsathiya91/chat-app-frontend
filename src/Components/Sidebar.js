@@ -43,7 +43,7 @@ function Sidebar() {
     });
     
     function getRooms(){
-        fetch("https://mern-chat-apps.herokuapp.com/rooms")
+        fetch("https://chatappusingmern.herokuapp.com/rooms")
         .then((res)=>res.json())
         .then((data)=>setRooms(data));
     }
